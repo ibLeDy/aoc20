@@ -1,5 +1,5 @@
 with open('input.txt', 'r') as fp:
-    data = list(map(int, fp.read().splitlines()))
+    data = set(map(int, fp.read().splitlines()))
 
 for entry in data:
     difference = 2020 - entry
