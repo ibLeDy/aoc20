@@ -8,5 +8,5 @@ def get_three_entries(data):
 
 
 with open('input.txt', 'r') as fp:
-    data = list(map(int, fp.read().splitlines()))
+    data = set(map(int, fp.read().splitlines()))
     get_three_entries(data)
