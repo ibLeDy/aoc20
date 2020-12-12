@@ -5,3 +5,4 @@
 - [Day 3: Toboggan Trajectory](https://adventofcode.com/2020/day/3) &nbsp; [⭐](day03/part1.py) &nbsp; [⭐](day03/part2.py)
 - [Day 4: Passport Processing](https://adventofcode.com/2020/day/4) &nbsp; [⭐](day04/part1.py) &nbsp; [⭐](day04/part2.py)
 - [Day 5: Binary Boarding](https://adventofcode.com/2020/day/5) &nbsp; [⭐](day05/part1.py) &nbsp; [⭐](day05/part2.py)
+- [Day 6: Custom Customs](https://adventofcode.com/2020/day/6) &nbsp; [⭐](day06/part1.py) &nbsp; [⭐](day06/part2.py)
