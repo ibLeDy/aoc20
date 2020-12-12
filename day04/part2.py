@@ -90,8 +90,8 @@ with open('input.txt', 'r') as fd:
     data = fd.read().splitlines()
 
     # I'm using the empty line ('') as the delimiter so
-    # I have to manually add one at the end for the last
-    # passport to not be omitted. Sorry
+    # I have to manually add one at the end so the last
+    # line won't get omitted.
     data.append('')
 
 valid_passports = 0
