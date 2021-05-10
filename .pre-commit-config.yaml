@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.3.0
+    rev: v3.4.0
     hooks:
       - id: check-added-large-files
       - id: check-ast
@@ -21,16 +21,16 @@ repos:
       - id: requirements-txt-fixer
       - id: trailing-whitespace
   - repo: https://github.com/asottile/reorder_python_imports
-    rev: v2.3.6
+    rev: v2.5.0
     hooks:
       - id: reorder-python-imports
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
-    rev: 2.1.4
+    rev: 2.1.5
     hooks:
       - id: markdownlint
         args: ["--rules=~MD013,~MD033"]
-  - repo: https://gitlab.com/pycqa/flake8
-    rev: 3.8.4
+  - repo: https://github.com/PyCQA/flake8
+    rev: 3.9.2
     hooks:
       - id: flake8
         args: [--max-line-length=88]
